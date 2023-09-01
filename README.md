@@ -27,7 +27,6 @@ BUCKET=
 Clone the project
 
 ```bash
-git clone git@github.com:Le-Bocal-Academy/spotifake-rage-against-the-machine-code.git
 ```
 
 Go to the project directory and install deps
