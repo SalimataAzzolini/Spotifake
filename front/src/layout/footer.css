@@ -1,0 +1,25 @@
+#footer-container {
+    background: #20043A;
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    align-items: center;
+}
+
+.footer-wrapper {
+    background: #20043A
+}
+
+#join-divider {
+    flex: 1
+}
+
+#join-divider > span {
+    font-weight: bold;
+    color:#aeebf2;
+    text-shadow:0px 0px 3px #6BE5F3, 0px 0px 18px #6BE5F3;
+}
+
+#join-divider::before, #join-divider::after {
+    border-top: 2px solid #6BE5F3;
+}

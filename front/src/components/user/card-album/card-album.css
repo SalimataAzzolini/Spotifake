@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.card-album {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 250px;
+    height: 250px;
+    font-family: "Righteous", sans-serif;
+    color: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.165);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+    outline: solid 12px;
+}
+
+.image-card-album {
+    border-top-right-radius: 60px;
+    height: 50%;
+    width: 90%;
+}
+
+.title-album-card {
+    color: white;
+    font-size: 18px;
+    font-family: "Righteous", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-show-album {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 20px !important;
+    margin-bottom: 10px !important;
+}

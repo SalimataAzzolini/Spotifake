@@ -1,0 +1,24 @@
+.profile-form-container{
+    background-Image: url("../../assets/platine-revert.png");
+    background-Repeat: no-repeat;
+    background-Size: contain;
+    background-Position-X: left;
+    background-Color: white;
+    width: 100%;
+    color: black;
+}
+
+.image-area-form{
+    flex:5;
+    width: auto;
+}
+
+@media screen and (max-width: 750px){
+    .profile-form-container{
+       background-image: none;
+    }
+
+    .image-area-form{
+        display: none;
+    }
+}

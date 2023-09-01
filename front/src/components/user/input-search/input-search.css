@@ -1,0 +1,9 @@
+
+
+@media screen and (max-width: 500px){
+    .input-search{
+        width: 300px !important;
+        height: 40px !important;
+    }
+
+}

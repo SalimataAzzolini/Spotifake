@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  ## Back-end container
+  back:
+    build:
+      context: ./back
+      dockerfile: Backend.Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: back-end-spotifake
+    volumes:
+      - ./back:/app/back
+      - ./back/node_modules:/app/back/node_modules
+    working_dir: /app/back
+    command: npm run dev
+  ## Front-end container
+  front:
+    build:
+      context: ./front
+      dockerfile: Frontend.Dockerfile
+    ports:
+      - "6006:6006"
+    container_name: front-end-spotifake
+    volumes:
+      - ./front:/app/front
+      - ./front/node_modules:/app/front/node_modules
+    working_dir: /app/front
+    command: npm run dev

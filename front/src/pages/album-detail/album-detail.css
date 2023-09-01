@@ -1,0 +1,13 @@
+.album-detail-container {
+    margin-top: 8em;
+}
+
+.album-card-detail-track {
+    display: "flex";
+    justify-content: "space-between";
+}
+
+.album-detail-card-header {
+    display: flex;
+    justify-content: space-between;
+}

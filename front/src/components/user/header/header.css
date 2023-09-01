@@ -1,0 +1,122 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* height: 90px; */
+    background-color: #271a43;
+    z-index: 3;
+}
+
+.logo-account-desktop {
+    width: 70px;
+    margin: 3px 50px 0px 0px;
+
+}
+
+.logo-account-mobile {
+    display: none;
+}
+
+.list {
+    list-style-type: none;
+    background: linear-gradient(45deg, rgb(#271a43), #271a43);
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    position: relative;
+}
+
+.items {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.li-to-hide {
+    display: none;
+}
+
+.container-btn-nav {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+
+}
+
+.btn-nav {
+    background-color: white;
+    color: black;
+    margin-right: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.btn-profil {
+    padding: 5px 45px;
+}
+
+.btn-logout {
+    padding: 5px 25px;
+}
+
+.btn-menu {
+    display: none !important;
+}
+
+@media screen and (max-width: 850px) {
+    .list {
+        background: linear-gradient(45deg, rgb(106, 10, 106), #271a43);
+        flex-direction: column;
+        height: auto;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        margin: 50px 0 50px;
+    }
+
+    .items:nth-child(1) {
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+
+    .items {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-left: 2rem;
+        padding: 20px 0;
+    }
+
+    .logo-account-desktop {
+        display: none;
+    }
+
+    .logo-account-mobile {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: block;
+        width: 50px;
+
+    }
+
+    .li-to-hide {
+        display: block;
+    }
+
+    .container-btn-nav {
+        display: none;
+    }
+
+    .btn-menu {
+        display: block !important;
+        position: fixed;
+        right: 20px;
+        top: 15px;
+    }
+
+}

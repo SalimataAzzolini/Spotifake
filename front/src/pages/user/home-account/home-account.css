@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/tt-norms');
+
+.container-page-account{
+    margin-top : 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-title-img{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.music-line{
+    width: 180px;
+    margin-top: -1.5rem;
+}
+
+.music-title{
+    font-size: 2.2rem;
+    font-family: 'TT Norms';
+}
+
+.container-input-search{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.title-sort{
+    font-size: 1.2rem;
+    font-family: 'TT Norms';
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.container-cards-track{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 4rem 5vw;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(650px, 2fr));
+    gap: 2rem;
+    padding: 0; */
+}
+
+.container-cards-track {
+    box-sizing: border-box;
+  }
+
+
+@media screen and (max-width: 500px){
+
+    .container-page-account{
+        margin-top : 4rem
+    }
+    .container-cards-track{
+        margin: 4rem 15vw;
+    }
+
+    .music-title-img{
+        margin-left: 0;
+    }
+
+    .music-title{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .music-line{
+        width: 60px;
+        height: 60px;
+        margin-top: 0.2rem;
+        margin-left: -4rem;
+    }
+
+    .container-input-search{
+        margin-top: 0;
+    }
+
+    .title-sort{
+        margin-top: 2rem;
+        font-size: .7rem;
+    }
+
+}

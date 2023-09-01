@@ -1,0 +1,49 @@
+.btn-go-to-home {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 20px !important;
+    margin-top: 2em !important;
+    position: absolute !important;
+    font-size: xx-small !important;
+}
+
+.container-page-search-result{
+    margin-top : 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.modal-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+.container-card-album-search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+
+@media screen and (max-width: 600px){
+
+.container-page-search-result{
+    margin-top : 1em;
+    }
+    .modal-filter{
+        font-size: 12px;
+        justify-content: start;
+        gap: 2em;
+    }
+    .music-line{
+        margin-left: 0em;
+    }
+    
+}

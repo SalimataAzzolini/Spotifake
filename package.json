@@ -1,0 +1,24 @@
+{
+  "name": "spotifake",
+  "version": "0.0.1",
+  "description": "Projet de fin de formation pour le titre développeur/concepteur",
+  "main": "index.js",
+  "scripts": {
+    "test": "nx run-many --target=test -p front back",
+    "lint": "nx run-many --target=lint -p front back",
+    "build": "nx run-many --target=build -p front back",
+    "dev": "nx run-many --target=dev -p front back"
+  },
+  "author": "spotifake-rage-against-the-manchine code",
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "16.2.2"
+  },
+  "workspaces": [
+    "front/",
+    "back/"
+  ],
+  "dependencies": {
+    "eslint": "^8.41.0"
+  }
+}
